@@ -1,2 +1,3 @@
 config/deploy.rb
 config/bot.yml
+tmp/*
