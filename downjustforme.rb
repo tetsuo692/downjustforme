@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
+
 require 'rubygems'
 require 'twibot'
 require 'open-uri'
+
 bot = Twibot::Bot.new(Twibot::Config.default)
 
 reply "check :uri" do |status,params|
